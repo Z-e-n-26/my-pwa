@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,3 +20,26 @@
   </script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment_Tracker</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body style="margin:0;padding:0;">
+  <iframe src="https://payment-tracker-gvlmx6fajrsgeofd3sp7dw.streamlit.app/" 
+          style="width:100vw;height:100vh;border:none;"></iframe>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').then(() => {
+        console.log('Service Worker Registered');
+      });
+    }
+  </script>
+</body>
+</html>
+>>>>>>> d6f8b772ad0865602faeddc4efe35153e7a63f9e

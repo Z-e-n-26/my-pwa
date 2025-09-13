@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "Payment Tracker",
   "short_name": "Payment",
@@ -13,3 +14,20 @@
     }
   ]
 }
+=======
+{
+  "name": "Payment Tracker",
+  "short_name": "Payment",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0F4C81",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
+>>>>>>> d6f8b772ad0865602faeddc4efe35153e7a63f9e
